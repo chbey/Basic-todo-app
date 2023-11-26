@@ -1,0 +1,63 @@
+body {
+    
+    background-color: skyblue;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  #input-todo {
+    width: 250px;
+    height: 25px;
+    font-size: 1.5rem;
+  }
+  
+  #add-todo {
+    
+  background-color:blueviolet;
+  padding: 2px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  }
+  
+  .todo-container {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .todo {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .actions > form {
+    display: inline;
+  }
+  
+  .actions > form > button {
+   
+    background-color:darkgray;
+    border: none;
+    color: white;
+    padding: 2px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+  }
